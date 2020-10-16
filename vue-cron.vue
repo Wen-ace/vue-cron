@@ -363,7 +363,7 @@
           <el-row>
             <el-radio v-model="month.cronEvery" label="5">
               指定&emsp;
-              <el-select v-model="month.specific" placeholder>
+              <el-select v-model="month.specifics" multiple placeholder>
                 <el-option v-for="item in 31" :key="item" :value="item">{{
                   item
                 }}</el-option>
